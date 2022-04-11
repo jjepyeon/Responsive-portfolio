@@ -4,6 +4,27 @@
   --box-shadow: 12px 12px 2px 1px rgba(255, 236, 129, 0.2);
 }
 
+@media (max-width: 989px) {
+  h2 {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  #large-image {
+    display: none;
+  }
+
+  h2.mb-3,
+  p {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
+}
 h1,
 h2,
 h3 {
