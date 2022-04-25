@@ -25,6 +25,13 @@
     justify-content: center;
   }
 }
+
+.hero {
+  padding: 160px;
+  margin-bottom: 50px;
+  background-color: #fff4d1;
+}
+
 h1,
 h2,
 h3 {
