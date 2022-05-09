@@ -68,6 +68,7 @@ h3 {
   width: 700px;
   display: block;
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 .header-h1 {
@@ -172,6 +173,23 @@ a:hover {
 
 .row {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 10px;
+}
+
+#work-container {
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+#medium-image {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.project-title {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
 }
