@@ -193,3 +193,8 @@ a:hover {
   padding-top: 10px;
   text-align: center;
 }
+
+.github-link {
+  margin: 0 auto;
+  text-align: center;
+}
