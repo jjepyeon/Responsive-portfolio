@@ -33,7 +33,7 @@
 }
 
 .hero {
-  padding: 160px;
+  padding: 90px;
   margin-bottom: 50px;
   background-color: #fff4d1;
 }
@@ -50,8 +50,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 70px;
-  font-size: 48px;
+  margin-top: 45px;
+  margin-bottom: 5px;
 }
 
 .mb-3 {
@@ -59,9 +59,11 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 14px;
 }
 
 .portrait {
