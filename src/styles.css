@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(255, 196, 0);
+  --primary-color: #ffc400;
   --secondary-color: rgb(255, 226, 129);
   --box-shadow: 12px 12px 2px 1px rgba(255, 236, 129, 0.2);
 }
@@ -30,6 +30,10 @@
     max-width: 100%;
     overflow-x: hidden;
   }
+}
+
+.navbar {
+  background: #fff4d1;
 }
 
 .hero {
@@ -198,10 +202,13 @@ a:hover {
 
 .github-link {
   margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
 #project-summary {
   margin-left: 50px;
   margin-right: 50px;
+  padding-top: 35px;
 }

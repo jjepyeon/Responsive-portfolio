@@ -21,9 +21,44 @@
       name="description"
       content="Here are the ways to contact Jane Pyeon."
     />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+      
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        button {
+            background-color: #ffc400;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        button:hover {
+            background-color: #f9ca2f;
+        }
+    </style>
+</head>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -52,10 +87,21 @@
       </div>
     </nav>
     <h1 class="header-h1"></h1>
-    <h3 id="contact">Email Me</h3>
-    <a href="mailto:janejpyeon@gmail.com" class="email-link">
-      ✉️ janejpyeon@gmail.com</a
-    >
+   <div class="container"   style="max-width: 400px">
+      <h2>Contact Me</h2>
+      <form action="process.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required> Hello! This form does not work at the moment! To contact me, send me an email or LinkedIn message through the icons below. They work!</textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
 
     <footer>
       <div
@@ -89,10 +135,10 @@
       </div>
     </footer>
     <p class="github-link">
-      This website was coded by Jane Pyeon and is
-      <a href="https://github.com/jjepyeon/responsive-portfolio"
-        >open-sourced</a
-      >
+      Please note, this website is work in progress and is
+      <a href="https://github.com/jjepyeon/responsive-portfolio">open-sourced</a
+      >. Thank you!
     </p>
+   
   </body>
 </html>
