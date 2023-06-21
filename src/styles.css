@@ -218,3 +218,20 @@ a:hover {
   margin-right: 50px;
   padding-top: 35px;
 }
+
+.row-personal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.column-personal {
+  flex: 50%;
+  padding: 0px 5px;
+}
+
+.column-personal img {
+  margin-top: 10px;
+  vertical-align: middle;
+  max-width: 100%;
+}
