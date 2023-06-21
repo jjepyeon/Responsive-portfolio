@@ -32,6 +32,12 @@
   }
 }
 
+#small-image {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   background: #fff4d1;
 }
@@ -63,11 +69,11 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .portrait {
